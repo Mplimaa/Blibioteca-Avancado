@@ -120,3 +120,22 @@ BEGIN
 
     RETURN @Total;
 END;
+
+
+
+CREATE VIEW vw_LivrosEmprestados
+AS
+SELECT 
+    L.Titulo AS Livro,
+    U.Nome AS Usuario,
+    E.DataEmprestimo,
+    E.DataDevolucao,
+    CASE 
+        WHEN E.DataDevolucao IS NULL THEN 'Em andamento'
+        ELSE 'Devolvido'
+    END AS StatusEmprestimo
+FROM Emprestimos E
+JOIN Livros L ON E.IdLivro = L.IdLivro
+JOIN Usuarios U ON E.IdUsuario = U.IdUsuario;
+
+
