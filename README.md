@@ -175,3 +175,11 @@ BEGIN
 END;
 
 
+
+--Observação: 
+
+--As procedures (procedimentos armazenados), são usadas para automatizar tarefas repetitivas, como registrar um empréstimo ou devolver um livro. Elas economizam tempo e evitam erros, pois encapsulam lógicas que você usaria várias vezes --com comandos SQL.
+
+--Já as Functions (funções), servem para calcular e retornar valores específicos, como verificar se um livro está disponível ou contar quantos livros um usuário já pegou emprestado. Elas podem ser usadas direto nas consultas (SELECT) e ---deixam o código mais limpo e reaproveitável.
+
+--Em resumo: procedures são boas para ações e funções são boas para respostas.
