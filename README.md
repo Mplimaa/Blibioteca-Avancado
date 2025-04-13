@@ -1,6 +1,6 @@
 ### Banco de Dados: Biblioteca (Nível de médio p/ Avançado)
 
-Este projeto define um banco de dados de uma biblioteca com estrutura avançada, incluindo procedures, functions, relacionamentos complexos e integridade referencial.
+Este projeto define um banco de dados de uma biblioteca com estrutura avançada, incluindo procedures, functions, views, relacionamentos complexos e integridade referencial.
 O objetivo é permitir explorar o uso de procedures, funções, joins, subconsultas, controle de integridade e lógica condicional no SQL Server.
 
 
